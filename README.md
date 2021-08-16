@@ -6,3 +6,18 @@ A lightweight one-in-two stream attention-based deep neural network (LOSA-DNN) i
 <img src="https://github.com/farhantandia/LOSA-DNN/blob/main/network.jpg"><br>
 </p>
 
+## Dependencies
+- Python 3.7
+- Tensorflow 2.3
+- tensorflow-addons
+- [efficientnet](https://github.com/qubvel/efficientnet)
+- [keras-video-generators](https://github.com/metal3d/keras-video-generators)
+- [keras_self_attention](https://github.com/CyberZHG/keras-self-attention)
+
+## Usage
+You can simply run the code:
+<pre
+python LOSA-DNN.py     
+</pre>
+or you can check the python notebook file inside the notebook folder.
+
