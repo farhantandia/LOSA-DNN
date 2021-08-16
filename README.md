@@ -16,7 +16,7 @@ A lightweight one-in-two stream attention-based deep neural network (LOSA-DNN) i
 
 ## Usage
 You can simply run the code:
-<pre
+<pre>
      
 python LOSA-DNN.py     
      
