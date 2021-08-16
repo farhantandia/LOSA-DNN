@@ -72,7 +72,6 @@ def fusion_attention_lstm(image_input_shape,n_class,height,width):
     avg_pool = GlobalAveragePooling1D()(t)
     max_pool = GlobalMaxPooling1D()(t)
     t = concatenate([avg_pool, max_pool])
-    
     t = Dropout(0.3)(t)
     print("Temporal: ", t.shape)
     
@@ -86,8 +85,7 @@ def fusion_attention_lstm(image_input_shape,n_class,height,width):
     a = GlobalAveragePooling2D()(s)
     c = Dropout(0.3)(a)
     print("Spatial: ", s.shape)
-    
-    
+        
     '''Fusion'''
     f = tf.keras.layers.Concatenate()([c, t])
     f = Dropout(0.3)(f)
