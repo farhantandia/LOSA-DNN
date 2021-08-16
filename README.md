@@ -21,3 +21,8 @@ python LOSA-DNN.py
 </pre>
 or you can check the python notebook file inside the notebook folder.
 
+## GradCAM++ Visualization
+<p align="center">
+<img src="https://github.com/farhantandia/LOSA-DNN/blob/main/gradcam.PNG", width="500"><br>
+</p>
+
