@@ -19,5 +19,6 @@ You can simply run the code:
 <pre
 python LOSA-DNN.py     
 </pre>
+
 or you can check the python notebook file inside the notebook folder.
 
