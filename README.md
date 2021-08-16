@@ -15,12 +15,9 @@ A lightweight one-in-two stream attention-based deep neural network (LOSA-DNN) i
 - [keras_self_attention](https://github.com/CyberZHG/keras-self-attention)
 
 ## Usage
-You can simply run the code:
+Download dataset HMDB-51 and UCF-101 and split the training and testing data inside each folder. After that You can simply run the code:
 <pre>
-     
 python LOSA-DNN.py     
-     
 </pre>
-
 or you can check the python notebook file inside the notebook folder.
 
